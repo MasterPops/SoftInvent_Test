@@ -2,7 +2,7 @@
 $ git clone https://github.com/MasterPops/SoftInvent_Test.git
 
 Перейти в папку с проектом
-$ cd SoftInvent
+$ cd SoftInvent_Test
 
 Запустить контейнеры Docker
 $ docker-compose up
