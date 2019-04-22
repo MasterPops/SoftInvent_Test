@@ -27,7 +27,9 @@
                 <div class="col-4">
                     <form method="GET" action="/requests">
                         <button type="submit" class="btn btn-success btn-block btn-lg" >Заявки</button>
+                        <label class="mt-2">От</label>
                         <input class="form-control mt-2" type="datetime-local" name="since">
+                        <label class="mt-2">До</label>
                         <input class="form-control mt-2" type="datetime-local" name="due">
                     </form>
                 </div>
