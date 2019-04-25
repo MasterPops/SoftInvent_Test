@@ -1,5 +1,5 @@
 FROM php:7.2.2-fpm
-RUN apt-get update -y && apt-get install -y libmcrypt-dev libgmp-dev openssl mysql-client \
+RUN apt-get update -y && apt-get install -y libmcrypt-dev unzip libgmp-dev openssl mysql-client \
 && docker-php-ext-install pdo_mysql
 RUN ln -s /usr/include/x86_64-linux-gnu/gmp.h /usr/local/include/
 RUN docker-php-ext-configure gmp
